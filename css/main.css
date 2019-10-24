@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FredokaOne-Regular;
+}
+
+.elmers-header-logo{
+    width: 116px;
+    height: 70px;
+}
+
+.navbar-expand-lg {
+    background: #2269df;
+}
+
+.text-white{
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.t-align{
+    text-align: center;
+}
+
+@font-face{
+    font-family: FredokaOne-Regular;
+    src: url(../Fonts/Fredoka_One/FredokaOne-Regular.ttf) format('.ttf')
+}
