@@ -8,83 +8,92 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>    
-    <nav class="navbar navbar-expand-lg navbar-light ">
+<body>  
+    <nav class="navbar navbar-expand-lg navbar-light blue-background">
         <img src="img/Elmers_logo.png" class="elmers-header-logo d-inline-block mx-auto" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link text-white" href="#">Talleres</a>
-            <a class="nav-item nav-link text-white" href="#">Nuestros productos</a>
-            <a class="nav-item nav-link text-white" href="#">Bases de participación</a>
+        <div class="collapse navbar-collapse nav-burger" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex justify-content-end fredoka-one">
+            <a class="nav-item nav-link text-white nav-text-size" href="#">Talleres</a>
+            <a class="nav-item nav-link text-white nav-text-size" href="#">Nuestros productos</a>
+            <a class="nav-item nav-link text-white nav-text-size" href="#">Bases de participación</a>
           </div>
-        </div>
-      </nav>
-    <div>
-        <header class="d-flex  justify-content-center">
-            <div class="">
-                <h3 class="t-align">Llévate tu</h3>
-                <h1 class="t-align">Slime Pack</h1>
-                <img  class="t-align" src="img/hero-pic-glue.png" alt="glue_pic">
-                <p class="t-align">En la compra de</p>
-                <h2 class="t-align">2 productos</h2>
-                <button type="button" class=" t-align btn btn-outline-warning">¡LLÉVATELO YA!</button>
-                <p class="t-align" >Descubre más</p>
+    </nav>
+<header class="d-flex  justify-content-center blue-background fredoka-one">
+    <div class="t-align">
+        <h3 class="stroke">Llévate tu</h3>
+        <h1 class="stroke">Slime Pack</h1>
+        <img  class="pic-glue" src="img/hero-pic-glue.png" alt="glue_pic">
+        <p class="text-white header-text-size">En la compra de</p>
+        <h2 class="stroke">2 productos</h2>
+            <button type="button" class="btn btn-light btn-orange ">¡LLÉVATELO YA!</button>
+        <p class="text-white nav-text-size" >Descubre más <img  class="scroll" src="img/scroll-down-arrow-icon-300x300.png" alt=""> </p>
+    </div>       
+</header>
+<div class="iceCream-background">
+    <div class="container">
+        <div class=" row first-section t-align">
+            <div class="col-12">
+                <img  class="talleres-mobile d-md-none" src="img/talleres-mobile.png" alt="talleres_mobile">
             </div>
-            
-        </header>
+            <div class="col-md-5 col-lg-6">
+                <img class="talleres-bg d-md-block d-none" src="img/Elmers-slime-kid.png" alt="">
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-6 paragraph">
+                <h4 class="fredoka-one orange-color">¡Aprende a hacer Slime!</h4>
+                <p class="roboto dark-blue-color">Participa para asistir a nuestros talleres y crea tu propio slime</p>
+                <button type="button" class="btn btn-primary btn-blue fredoka-one">QUIERO PARTICIPAR</button>
+                <p class="roboto dark-blue-color""><a class="dark-blue-color anchor-text" href="#">Consulta las bases del concurso</a></p>
+            </div>
+        </div>
     </div>
-    <div>
-        <section>
-            <img src="img/talleres-mobile.png" alt="talleres_mobile">
-            <h4>¡Aprende a hacer Slime!</h4>
-            <p>Participa para asistir a nuestros talleres y crea tu propio slime</p>
-            <button type="button" class="btn btn-primary">QUIERO PARTICIPAR</button>
-            <p><a href="#">Consulta las bases del concurso</a></p>
-        </section>
+    <div class="t-align">     
+        <h4 class="fredoka-one light-blue-color">Nuestros productos</h4>
+        <p class="roboto dark-blue-color"">Descubre nuestra gama de productos con los que puedes hacer increíbles y únicos slimes</p>
     </div>
-    <div>
-        <h4>Nuestros productos</h4>
-        <p>Descubre nuestra gama de productos con los que puedes hacer increíbles y únicos slimes</p>
-    </div>
-    <div>
-        <section>
-            <div class="card" style="width: 18rem;">
+    <div class="container ">
+        <div class= "row d-flex justify-content-center cards-padding"> 
+            <div class="t-align card main-card col-12 col-sm-12 col-md-3 col-lg-3 " >
                 <div class="card-body">
-                    <p class="card-text">Glow in the dark</p>
-                <div>
+                    <p class="card-text fredoka-one light-blue-color">Glow in the dark</p>
+                </div>
                 <img src="img/elmers-producto-1.png" class="card-img-top" alt="Producto 1">
                 <div class="card-body">
-                    <p class="card-text">No pares de jugar en las noches</p>
+                    <p class="card-text roboto dark-blue-color">No pares de jugar en las noches</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="t-align card main-card col-12 col-sm-12 col-md-3 col-lg-3" >
                 <div class="card-body">
-                    <p class="card-text">Purple glitter</p>
-                <div>
+                    <p class="card-text fredoka-one light-blue-color">Purple glitter</p>
+                </div>
                 <img src="img/elmers-producto-2.png" class="card-img-top" alt="Producto 2">
                 <div class="card-body">
-                    <p class="card-text">Para darle un toque cósmico a tu slime</p>
+                    <p class="card-text roboto dark-blue-color">Para darle un toque cósmico a tu slime</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <p class="card-text">Glitter Multi</p>
-                <div>
+            <div class="t-align card main-card col-12 col-sm-12 col-md-3 col-lg-3" >
+                <div class="card-body ">
+                    <p class="card-text fredoka-one light-blue-color">Glitter Multi</p>
+                </div>
                 <img src="img/elmers-producto-3.png" class="card-img-top" alt="Producto 3">
                 <div class="card-body">
-                    <p class="card-text">Crea galaxias de diversión con tus slimes</p>
+                    <p class="card-text roboto dark-blue-color">Crea galaxias de diversión con tus slimes</p>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
-    <footer>
-        <img src="img/Elmers_logo.png" alt="Elmers_logo">
-        <p><a href="">Términos y condiciones</a></p>
-        <p><a href="">Aviso de privacidad</a></p>
-    </footer>
+</div>
+<footer class="roboto blue-background">
+    <div class="container">
+        <img class="footer-logo" src="img/Elmers_logo.png" alt="Elmers_logo">
+        <div class="row d-flex" id="footer">  
+            <p class="anchor-text text-white">Términos y condiciones</p>
+            <p class="anchor-text text-white">Aviso de privacidad</p>
+        </div>
+    </div>
+</footer>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

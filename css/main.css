@@ -2,8 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: FredokaOne-Regular;
 }
+
+/* CLASES DE UTILIDAD */
+
+@font-face{
+    font-family: FredokaOne-Regular;
+    src: url(../Fonts/Fredoka_One/FredokaOne-Regular.ttf)
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf)
+}
+
+.fredoka-one{ 
+    font-family: FredokaOne-Regular;  
+}
+
+.roboto{
+    font-family: Roboto,
+}
+.blue-background{
+    background:#0098fe
+}
+
+.orange-color{
+    color:#ff8305;
+    padding: 10px;
+}
+
+.light-blue-color{
+    color: #0098fe;
+    padding: 10px;
+}
+
+.dark-blue-color{
+    color: #00549a;
+    padding: 10px;
+}
+
+/* CLASES CASCADA MOBILE */
 
 .elmers-header-logo{
     width: 116px;
@@ -11,21 +50,149 @@
 }
 
 .navbar-expand-lg {
-    background: #2269df;
+    background:#0098fe
+}
+
+.nav-burger{
+    display: flex;
+    justify-content: end
 }
 
 .text-white{
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+}
+
+.nav-text-size{
     font-size: 1rem;
-    font-weight: bold;
-    display: flex;
-    justify-content: end;
+    font-weight: 550;
 }
 
 .t-align{
     text-align: center;
 }
 
-@font-face{
-    font-family: FredokaOne-Regular;
-    src: url(../Fonts/Fredoka_One/FredokaOne-Regular.ttf) format('.ttf')
+header {
+    background:#0098fe
+}
+
+.stroke{
+    text-shadow: 0.2rem 0px #fff, -0.2rem 0px #fff, 0px 0.2rem #fff, 0px -0.2rem #fff;
+}
+
+h3{
+    color:#00549a;
+    font-size: 2rem;
+    font-weight: 550;
+    padding-top: 15px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 550;
+    color: #ff8305;
+    padding: 15px;
+}
+
+.pic-glue{
+    width: 234px;
+    height: 274px;
+}
+
+.header-text-size{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 550;
+    color: #ff8305;
+    padding-bottom: 15px;
+}
+
+.btn{
+    border-radius: 40px 50px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.btn-orange{
+    color: #ff8305;
+    border-bottom: 3px solid#ff8305
+}
+
+.btn-blue{
+    color: #fff;
+    background: #0099ff;
+    border-bottom: 3px solid#00549a
+}
+
+.scroll{
+    width: 30px;
+    height: 30px;
+}
+
+.talleres-mobile{
+    width: 414px;
+    display: block;
+    padding-top: 31px;
+    padding-bottom: 15px;
+}
+
+.iceCream-background{
+    background-image: url(../img/talleres-bg.png);
+    background-repeat: no-repeat;
+}
+
+.first-section{
+    display: flex;
+    padding: 15px;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: 550;
+    padding-top: 15px;
+}
+
+.anchor-text{
+    font-size: 0.8rem;
+    color: #fff
+
+}
+
+.footer-logo{
+    width: 78px;
+    height: 50px;
+    margin: 10px;
+}
+/* CLASES CASCADA PC*/
+
+
+.talleres-bg{
+    width: 500px;
+    padding: 15px;
+    padding-top: 150px;
+    justify-content: left;
+}
+
+.paragraph{
+    justify-content: right;
+    padding-top: 250px;
+    padding-inline: 84px;
+}
+
+.cards-padding{
+    padding-top: 130px;
+}
+
+.main-card{
+    padding: 15px;
+    margin: 15px;
+}
+#footer{
+    text-align: right;
+    justify-content: end;
 }
